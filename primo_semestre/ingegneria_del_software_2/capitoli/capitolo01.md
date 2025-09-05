@@ -10,10 +10,10 @@
 
 bla bla bla
 
-![[img_a_caso.jpg]]
+![](primo_semestre/ingegneria_del_software_2/capitoli/attachments/aaaa%20(2)%202.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris augue, porttitor a lorem vel, pharetra maximus lacus. Cras erat urna, placerat nec varius id, imperdiet eu purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Vivamus purus ligula, aliquet at imperdiet in, tempor a velit. Quisque molestie a mauris vitae viverra. Ut urna libero, condimentum in sem at, placerat tempor augue. Nam malesuada dui varius orci euismod, quis gravida massa lobortis. Mauris id volutpat eros. Mauris lacinia nisi nec ipsum tincidunt ultrices. Nam lorem mauris, consequat nec varius a, consequat molestie risus. Etiam sed orci vitae massa interdum feugiat. Fusce sapien quam, imperdiet eget sapien a, lobortis facilisis metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque mollis massa et dolor aliquet, at pellentesque purus sollicitudin.
-![](aaaa%20(2).jpg)
+
 Vestibulum at justo pharetra, mattis nisi eu, consequat ante. In hac habitasse platea dictumst. Fusce quis lectus hendrerit, fringilla enim id, dignissim nibh. Aliquam luctus ante id nibh elementum placerat. Nam finibus congue libero, sed pharetra justo laoreet at. Sed a ligula mattis, blandit purus ac, interdum lectus. Praesent ultrices euismod blandit. Duis fringilla nunc lacinia felis vehicula venenatis. In hac habitasse platea dictumst.
 
 Sed quis posuere mi, sed hendrerit augue. Nulla sit amet faucibus ipsum. Quisque posuere sapien mi, et scelerisque orci iaculis vitae. Mauris lacinia dapibus lorem eget consectetur. Ut efficitur malesuada lacus, at sollicitudin orci. Quisque vel egestas metus. Nullam sed justo ullamcorper, blandit augue quis, tempor diam.
