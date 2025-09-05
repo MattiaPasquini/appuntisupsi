@@ -10,5 +10,6 @@ crediti: 6
 
 ## Capitoli
 - [Capitolo 1 - Lorem Ipsum](./capitoli/capitolo01.md)
-- [[capitolo02]]
+- [Capitolo 2 - test](./capitoli/capitolo02.md)
+- 
 - ...
