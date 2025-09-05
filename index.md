@@ -12,7 +12,8 @@ Benvenuto negli appunti di Pasqui per il terzo anno ma potete contribuire voi pe
 # Moduli I3x - primo semestre
 
 ## Per tutti
-- [[Ingegneria del software 2]]
+- [[primo_semestre/Ingegneria_del_software_2]]
+- [Ingegneria del software 2](primo_semestre/ingegneria_del_software_2/index.md)
 - Grafica
 - Sistemi operativi
 - Algoritmi avanzati
