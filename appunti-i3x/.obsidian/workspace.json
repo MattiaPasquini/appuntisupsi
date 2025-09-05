@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "7df0e9f503d777ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc2e95874214198b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "055b31ba681d2c62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Benvenuto.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Benvenuto"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3922f46a84943a9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "091eefa1855769e7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5414c451819b6e4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cdbd96c649b8ba0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71e6efff1c2bbbad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1fc3d586444440de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4e75b7077ef9498b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e463e31ab973f6af",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cfc0d65f4725021",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1e0c7e3820c29a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Benvenuto.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Benvenuto"
+            }
+          },
+          {
+            "id": "57d0ffd787dbb3c4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Benvenuto.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Benvenuto"
+            }
+          },
+          {
+            "id": "d6119089970a6c66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d6e7b56581980ee9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Benvenuto.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Benvenuto"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "055b31ba681d2c62",
+  "lastOpenFiles": [
+    "ingegneria_e_sviluppo_software/Ingegneria del software 2.md",
+    "ingegneria_e_sviluppo_software/capitoli/Capitolo 01 - Argomento 1.md",
+    "ingegneria_e_sviluppo_software/capitoli/Capitolo 02 - Argomento 2.md",
+    "Benvenuto.md",
+    "ingegneria_e_sviluppo_software/capitoli",
+    "ingegneria_e_sviluppo_software"
+  ]
+}
