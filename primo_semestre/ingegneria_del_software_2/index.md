@@ -9,6 +9,6 @@ crediti: 6
 ...
 
 ## Capitoli
-- [[Capitolo 01 - Argomento 1]]
-- [[Capitolo 02 - Argomento 2]]
+- [Capitolo 1 - Lorem Ipsum](./capitoli/capitolo01.md)
+- [[capitolo02]]
 - ...

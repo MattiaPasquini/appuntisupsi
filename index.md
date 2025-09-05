@@ -1,25 +1,19 @@
 ---
 layout: default
 ---
-This is your new *vault*.
-
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
-
+# Appunti per I3x della SUPSI
 Benvenuto negli appunti di Pasqui per il terzo anno ma potete contribuire voi perché io non sono capace di fare tutto.
 
 # Moduli I3x - primo semestre
 
 ## Per tutti
-- [[primo_semestre/Ingegneria_del_software_2]]
 - [Ingegneria del software 2](primo_semestre/ingegneria_del_software_2/index.md)
 - Grafica
 - Sistemi operativi
 - Algoritmi avanzati
 - Economia
 
-# Opzionali
+## Opzionali
 - System Management e sistemi di difesa
 - Security and Privacy by Design
 - User Experience Design
