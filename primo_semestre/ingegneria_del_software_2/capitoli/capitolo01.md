@@ -1,4 +1,4 @@
-# Ingegneria del software 2
+# Ingegneria del Software 2
 
 **Data lezione**: 16.09.2025
 
