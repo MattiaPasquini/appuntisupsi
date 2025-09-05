@@ -2,7 +2,7 @@
 layout: default
 ---
 # Appunti per I3x della SUPSI
-Benvenuto negli appunti di Pasqui per il terzo anno ma potete contribuire voi perché io non sono capace di fare tutto.
+Benvenuto negli appunti di Pasqui & Co. dove potete leggere e studiare ma volendo potete anche contribuire, condividendo una parte dei vostri appunti, riassunti, etc
 
 # Moduli I3x - primo semestre
 
