@@ -23,11 +23,11 @@ git pull
 Notate ora che la struttura delle cartelle è ben organizzata. Nella cartella `primo_semestre` ovviamente (come disse un saggio: *grazie al cazzo*) contiene i moduli di quel semestre. Ogni cartella del modulo contiene il file `index.md` che contiene le informazioni del modulo e la lista dei capitoli. Ogni capitolo che scriviamo va salvato nella cartella `capitolo` nel modulo appropriato, il filename deve essere `capitolo<NN>` dove NN è un numero intero incrementale.
 
 Andate nelle impostazioni > Files and links e fate queste cose:
-- Disattivate `[[Wikilinks]]` perché altrimenti sul browser non mostra correttamente le foto e i link
+- Disattivare `[[Wikilinks]]` perché altrimenti sul browser non mostra correttamente le foto e i link
 - Il default location per gli attachment (principalmente per le immagini) va settato in: `In subfolder under current folder`
 - Il nome del subfolder deve essere: `attachments`
 
-Il template del capitolo è il seguente:
+Il template di un capitolo è il seguente:
 
 ```a
 # <materia>

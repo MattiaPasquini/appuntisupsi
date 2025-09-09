@@ -22,10 +22,3 @@ Benvenuto negli appunti di Pasqui & Co. dove potete leggere e studiare ma volend
 
 # Secondo semestre
 calmi... è ancora troppo presto per guardare le robe del secondo semestre
-
-# Collaboratori
-[<img src="https://github.com/mattiapasquini.png" width="40">](https://github.com/mattiapasquini) @mattiapasquini
-
-[<img src="https://github.com/trotacazzuta.png" width="40">](https://github.com/trotacazzuta) @trotacazzuta
-
-[<img src="https://github.com/Techative-CH.png" width="40">](https://github.com/Techative-CH) @Techative-CH

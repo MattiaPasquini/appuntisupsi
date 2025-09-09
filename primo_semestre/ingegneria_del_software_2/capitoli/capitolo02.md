@@ -32,6 +32,9 @@ int main() {
 ```
 
 Espressione matematica
+
 $$
 \int_a^bf(x) = F(b) - F(a)
 $$
+
+Espressione matematica inline: $f(x) = x^2+1$
