@@ -6,7 +6,7 @@
 
 [back](./../index.md)
 
-# Capitolo 1
+# Capitolo 1 - Lorem ipsum
 
 bla bla bla
 

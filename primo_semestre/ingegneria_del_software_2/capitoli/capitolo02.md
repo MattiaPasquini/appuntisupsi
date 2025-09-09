@@ -6,7 +6,7 @@
 
 [back](./../index.md)
 
-# Capitolo 2
+# Capitolo 2 - test
 
 bla bla bla
 
@@ -30,3 +30,8 @@ int main() {
 	return 0;
 }
 ```
+
+Espressione matematica
+$$
+\int_a^bf(x) = F(b) - F(a)
+$$
