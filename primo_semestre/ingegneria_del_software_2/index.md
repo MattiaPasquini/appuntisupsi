@@ -3,13 +3,9 @@
 crediti: 6
 
 ## Esami:
-
-
-## Riferimenti
-...
+- 50% Scritto (con un foglio A4 avanti e indietro)
+- 50% Orale
 
 ## Capitoli
-- [Capitolo 1 - Lorem Ipsum](Z_capitolo01.md)
-- [Capitolo 2 - test](Z_capitolo02.md)
-- 
-- ...
+- [Capitolo 1 - Introduzione agile](capitolo1.md)
+- [Capitolo 2 - Unit Testing](capitolo2.md)
