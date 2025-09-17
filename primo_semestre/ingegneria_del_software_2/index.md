@@ -7,5 +7,5 @@ crediti: 6
 - 50% Orale
 
 ## Capitoli
-- [Capitolo 1 - Introduzione agile](capitolo1.md)
-- [Capitolo 2 - Unit Testing](capitolo2.md)
+- [Capitolo 1 - Introduzione agile](./capitoli/capitolo1.md)
+- [Capitolo 2 - Unit Testing](./capitoli/capitolo2.md)
