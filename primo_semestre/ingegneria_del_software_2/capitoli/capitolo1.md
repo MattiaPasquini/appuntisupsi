@@ -40,12 +40,14 @@ Le principali criticità che hanno motivato la nascita dell'Agile includono:
 ## Manifesto Agile
 Tenendo conto anche del valore degli elementi sulla destra, consideriamo gli elementi sulla sinistra più importanti.
 
-|                                |                                          |
-| ------------------------------ | ---------------------------------------- |
-| **Individuali e interazioni**  | processi e strumenti                     |
-| **Software funzionante**       | documentazione esaustiva e comprensibile |
-| **Collaborazione col cliente** | contrattazione                           |
-| **Risposta al cambiamento**    | seguire un piano                         |
+<table>
+  <tr><td><strong>Individuali e interazioni</strong></td><td>processi e strumenti</td></tr>
+  <tr><td><strong>Software funzionante</strong></td><td>documentazione esaustiva e comprensibile</td></tr>
+  <tr><td><strong>Collaborazione col cliente</strong></td><td>contrattazione</td></tr>
+  <tr><td><strong>Risposta al cambiamento</strong></td><td>seguire un piano</td></tr>
+</table>
+
+
 ### Principi
 I principi del Manifesto Agile non sono le regole rigide ma sono le linee di guida che creano un mindset diverso: valore, collaborazione, qualità e adattabilità.
 #### Principio 1 - Soddisfazione del cliente tramite consegne continue
