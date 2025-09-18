@@ -169,3 +169,12 @@ int main(void) {
 }
 
 ```
+
+
+## Domande Wooclap
+	1)
+	2)
+	3) # Come funziona l'algoritmo di Gale-Shapley? --> Gli uomini propongono alle donne, e le donne accettano o rifiutano in base alle loro preferenze.
+	4) # Qual è una delle proprietà fondamentali della soluzione stabile nell'algoritmo di Gale-Shapley? --> L'algoritmo termina sempre con il matching perfetto/stabile. / Il matching massimizza il numero di coppie.
+	5) # Cosa succede se l'algoritmo di Gale-Shapley termina? --> Il matching trovato è sempre stabile.
+	6) # Quale delle seguenti affermazioni è falsa riguardo allo stable matching? --> Il matching stabile è unico.
