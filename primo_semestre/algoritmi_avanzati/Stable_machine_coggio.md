@@ -178,16 +178,3 @@ int main(void) {
 	4) # Qual è una delle proprietà fondamentali della soluzione stabile nell'algoritmo di Gale-Shapley? --> L'algoritmo termina sempre con il matching perfetto/stabile. / Il matching massimizza il numero di coppie.
 	5) # Cosa succede se l'algoritmo di Gale-Shapley termina? --> Il matching trovato è sempre stabile.
 	6) # Quale delle seguenti affermazioni è falsa riguardo allo stable matching? --> Il matching stabile è unico.
-
-
-
-
-
-
-
-
-
-
-
-
-PROVCA
