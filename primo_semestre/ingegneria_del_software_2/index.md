@@ -11,5 +11,6 @@ crediti: 6
 [lab](https://www.icorsi.ch/course/view.php?id=8326)
 
 ## Capitoli
-- [Capitolo 1 - Introduzione agile](01_Agile.md)
-- [Capitolo 2 - Unit Testing](02_UnitTest.md)
+- [Capitolo 1 - Introduzione agile](./capitoli/01_Agile.md)
+- [Capitolo 2 - Unit Testing](./capitoli/02_UnitTest.md) ANCORA DA FINIRE
+- Capitolo 3 - Static and dynamic objects - ANCORA DA INIZIARE
