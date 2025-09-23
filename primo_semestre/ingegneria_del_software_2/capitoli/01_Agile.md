@@ -1,6 +1,6 @@
 # Ingegneria del Software 2
 
-**Data lezione**: 16.09.2025
+**Data lezione**: 16.09.2025 - 23.09.2025
 
 **Autori**: Pasqui
 
@@ -110,3 +110,46 @@ I principi del Manifesto Agile non sono le regole rigide ma sono le linee di gui
 - **Implicazione**: retrospettive di sprint, analisi delle pratiche, adattamento costante.
 - **Beneficio**: il processo diventa sempre più efficiente e resiliente ai cambiamenti.
 
+## Punti di forza
+
+![](./attachments/Pasted%20image%2020250923090653.png)
+
+- **Visibilità**: Con il metodo Agile, ci sono i rilasci frequenti e si ottengono i feedback continui. Per ogni rilascio il cliente può provarlo e valutare lo stato reale del progetto.
+- **Adattabilità**: La capacità di rispondere ai cambiamenti dei requisiti senza compromettere molto i tempi e i costi.
+- **Business Value**: Con il metodo Agile, il valore del business aumenta perché il software è già funzionante con delle funzionalità implementate in quel momento.
+- **Rischio**: Grazie all'interazione continua con cliente, il rischio diminuisce molto perché con contatto frequente con cliente, il software sarà ben funzionante e rispetterà tutte le aspettative del cliente.
+
+## XP Values
+XP è una delle metodologie di Agile più noti. Ci sono 4 valori fondamentali
+
+### Semplicità
+Bisogna creare le soluzioni più semplici, evitando l'over-engineering. Le soluzioni implementate dovrà essere facilmente modificabile un domani.
+
+### Comunicazione
+La maggior parte dei problemi deriva da mancanza delle comunicazioni. Le pratiche definite in XP obbliga un dialogo continuo
+
+### Feedback
+- Feedback tecnico: test unit, *continuous integration*
+- Feedback utente: rilascio rapido e usabilità verificata sul campo
+- Feedback gestionale: avanzamento e pianificazione monitorati regolarmente
+
+### Coraggio
+Avere il coraggio di cambiare codice anche se funziona, se serve a migliorarlo. Condividere la proprietà del codice con tutto il team. Eliminare codice inutile o sbagliato senza avere paura.
+
+
+![](./attachments/Pasted%20image%2020250923232252.png)
+
+## Scrum Agile Model
+
+![](./attachments/Pasted%20image%2020250923232441.png)
+
+Esiste anche **Scrum**, un altro framework Agile, complementare a XP.  
+Scrum si concentra sulla **gestione del processo e del team** più che sulle pratiche tecniche.  
+Caratteristiche principali:
+
+- Suddivisione del lavoro in **sprint** (iterazioni brevi e time-boxed).
+- Ruoli chiave: **Product Owner** (voce del cliente), **Scrum Master** (facilitatore), **Development Team**.
+- Eventi principali: Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective.
+- Artefatti: Product Backlog, Sprint Backlog, Incremento.
+
+*Grazie ChatGPT*
