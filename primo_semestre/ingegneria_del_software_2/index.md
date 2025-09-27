@@ -12,5 +12,5 @@ crediti: 6
 
 ## Capitoli
 - [Capitolo 1 - Introduzione agile](./capitoli/01_Agile.md)
-- [Capitolo 2 - Unit Testing](./capitoli/02_UnitTest.md) ANCORA DA FINIRE
-- Capitolo 3 - Static and dynamic objects - ANCORA DA INIZIARE
+- [Capitolo 2 - Unit Testing](./capitoli/02_UnitTest.md)
+- [Capitolo 2 LAB - Static and dynamic objects](./capitoli/02_zLAB_lib_statiche_dinamiche)
