@@ -60,14 +60,12 @@ gcc -o dynamic_starwars starwars.o -L. -lstarwars
 # Esegui (specificando dove trovare la libreria dinamica)
 LD_LIBRARY_PATH=. ./dynamic_starwars
 ```
-lib statica e dinamici, rileggere perché non ho capito una sega porcodio. capire cosa sono, mostrare i comandi e capire la differenza tra statici e dinamici e i loro caso d'utilizzo.
 
-mostrare gli esempi pratici.
 
-cosa fa makefile
+## Makefile
 
 esempio di makefile qua sotto
-```
+```make
 starwars: starwars.so starwars.o
     gcc -o starwars starwars.o -L. -lstarwars
     
@@ -85,11 +83,9 @@ student.o: student.c student.h
     
 ```
 
-ma a scrivere a mano tutte le volte è una rottura
+ma a scrivere a mano tutte le volte è una rottura =>
 
-=>
-
-```
+```make
 starwars: libstarwars.so starwars.o
 	gcc -o $@ starwars.o -L. -lstarwars
 
@@ -103,7 +99,7 @@ libstarwars.so: course.o student.o
 
 poi puoi fare anche la pulizia sempre nel file make
 
-```
+```make
 clean:
 	rm .....
 ```
