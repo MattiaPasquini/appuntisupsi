@@ -71,7 +71,7 @@ Comunque ci sono tanti metodi tipo `assertEquals`, `assertFalse`, ecc. Ecco la [
 
 ![](./attachments/Pasted%20image%2020250924000754.png)
 
-
+### Money and MoneyBag
 Altro esempio: `Money` e `MoneyBag`
 
 ```java
@@ -143,7 +143,7 @@ Money m12CHF= new Money(12,"CHF");
 Money m14CHF= new Money(14,"CHF");
 ```
 
-JUnit fornice una funzionalità che permette di fare un meccanismo di setup per istanziare gli oggetti una volta per tutti i test.
+JUnit fornisce una funzionalità che permette di fare un meccanismo di setup per istanziare gli oggetti una volta per tutti i test.
 
 ```java
 public class MoneyTest {
@@ -159,9 +159,76 @@ public class MoneyTest {
 }
 ```
 
-I metodi con l'annotazione `@BeforeEach` permette di chiamare quel metodo prima di ogni test, per garantire che non ci siano *side-effects*. Poi esistono anche `@AfterEach`, `@BeforeAll`, `@AfterAll`. I nomi sono abbastanza *self-explanatory* per capire cosa fanno lol.
+I metodi con l'annotazione `@BeforeEach` permette di chiamare quel metodo prima di ogni test, per garantire che non ci siano gli *side-effects*. Poi esistono anche `@AfterEach`, `@BeforeAll`, `@AfterAll` (penso?). I nomi sono abbastanza *self-explanatory* per capire cosa fanno lol.
 
-Ora introduciamo `MoneyBag` per gestire più valute contemporaneamente.
+Ora introduciamo `MoneyBag` per gestire più valute contemporaneamente. Praticamente un portafoglio che contiene più valute separatamente. Tipo 50CHF, 30USD, ecc.
 
-ANCORA DA FINIRE SORRY
+```java
+public class MoneyBag {
+	private List<Money> monies= new ArrayList<>();
+	
+	public MoneyBag(Money m1, Money m2) {
+		appendMoney(m1);
+		appendMoney(m2);
+	}
+	public MoneyBag(Money bag[]) {
+		for (Money money : bag) {
+			appendMoney(money);
+		}
+	}
+	...
+	private void appendMoney(Money money){
+		monies.add(money);
+	}
+	...
+}
+```
+
+E aggiungiamo un'interfaccia `IMoney` siccome tutti gli oggetti che rappresentano soldi (Money, MoneyBag e qualsiasi altro tipo futuro) devono saper fare queste operazioni base (add).
+
+```java
+public interface IMoney {
+	IMoney add(IMoney money);
+}
+```
+
+![](./attachments/Pasted%20image%2020250927232952.png)
+
+Ma siccome non possiamo fare dispatch sul parametro (tipico java), va implementato le differenti versioni di `add()` chiamando `addMoney()` e `addMoneyBag()` 
+
+Ecco un esempio di codice dopo aver implementato le classi con i metodi menzionati prima:
+```java
+IMoney a = new Money(50, "CHF");
+IMoney b = new MoneyBag(...);
+IMoney risultato = a.add(b);
+```
+
+C'è un problema con questo esempio: Java sa quale versione `add()` chiamare guardando il tipo della variabile `a` ma dentro il metodo `add()` deve anche sapere che tipo è `b` per decidere cosa fare (se deve fare Money + Money oppure Money + MoneyBag).
+
+Ecco le due soluzioni:
+#### 1. Manual Dispatch (semplice ma brutto)
+```java
+public IMoney add(IMoney other) { 
+	if (other instanceof Money) { 
+		return addMoney((Money)other); 
+	} else { 
+		return addMoneyBag((MoneyBag)other); 
+	} 
+}
+```
+
+#### 2. Visitor Pattern (più elegante)
+```java
+// In Money: 
+public IMoney add(IMoney other) { 
+	return other.addMoney(this); // "Ehi other, aggiungiti questo Money!" 
+} 
+
+// In MoneyBag: 
+public IMoney add(IMoney other) { 
+	return other.addMoneyBag(this); // "Ehi other, aggiungiti questo MoneyBag!" 
+}
+```
+
+e da lì puoi testare tutte le combinazioni usando `addMoney`, `addMoneyBag` e `add`.
 
