@@ -1,0 +1,8 @@
+Management tool
+    https://www.glpi-project.org/en/
+
+nmap site
+    https://pentest-tools.com/
+
+detect cms site
+    
