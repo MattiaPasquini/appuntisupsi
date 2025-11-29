@@ -14,11 +14,7 @@ Benvenuto negli appunti di Pasqui & Co. dove potete leggere e studiare ma volend
 ## Opzionali
 - [System Management e sistemi di difesa](primo_semestre/system_management_difesa/index.md)
 - [Security and Privacy by Design](primo_semestre/security_privacy_design/index.md)
-- [User Experience Design](primo_semestre/user_experience_design/index.md)
 - [Informatica Tecnica](primo_semestre/informatica_tecnica/index.md)
-- [Industria ferroviaria](primo_semestre/industria_ferroviaria/index.md)
-- [Game Development](primo_semestre/game_development/index.md)
-- [Machine Learning](primo_semestre/machine_learning/index.md)
 
 # Secondo semestre
 calmi... è ancora troppo presto per guardare le robe del secondo semestre

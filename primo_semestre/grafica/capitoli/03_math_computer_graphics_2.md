@@ -1,6 +1,6 @@
-# Graifca
+# Grafica
 
-**Data lezione**: 23.09.2025
+**Data lezione**: ??
 
 **Autori**: Pasqui
 
