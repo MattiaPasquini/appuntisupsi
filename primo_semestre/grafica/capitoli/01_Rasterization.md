@@ -9,4 +9,4 @@
 [back](./../index.md)
 [next](./02_math_computer_graphics_1)
 
-# 1. ...
+# Rasterizzazione
