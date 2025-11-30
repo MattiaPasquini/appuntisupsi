@@ -8,4 +8,6 @@
 
 [back](./../index.md)
 
-# Coming soon...
+# Matematica per computer grafica parte 2
+
+
